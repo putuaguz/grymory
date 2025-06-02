@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UPMI - Profil Kampus</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+    header {
+      background: #1e293b;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #38bdf8;
+    }
+    nav a {
+      color: #f8fafc;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #38bdf8;
+    }
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: linear-gradient(to bottom, #1e293b, #0f172a);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: #38bdf8;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      color: #cbd5e1;
+    }
+    .section {
+      padding: 3rem 2rem;
+    }
+    .section h2 {
+      font-size: 2rem;
+      color: #facc15;
+      margin-bottom: 1rem;
+    }
+    .grid {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .card {
+      background: #1e293b;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+    footer {
+      background: #1e293b;
+      text-align: center;
+      padding: 1rem;
+      color: #94a3b8;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">UPMI</div>
+    <nav>
+      <a href="#profil">Profil</a>
+      <a href="#program">Program Studi</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#pmb">PMB</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Selamat Datang di UPMI</h1>
+    <p>Menginspirasi generasi penerus dengan pendidikan berkualitas dan teknologi masa depan.</p>
+  </section>
+
+  <section class="section" id="profil">
+    <h2>Profil Kampus</h2>
+    <p>UPMI (Universitas Pembangunan Mandiri Indonesia) adalah institusi pendidikan tinggi yang berkomitmen menciptakan lulusan unggul, adaptif, dan berdaya saing global.</p>
+  </section>
+
+  <section class="section" id="program">
+    <h2>Program Studi</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Sistem Informasi</h3>
+        <p>Fokus pada analisis sistem, manajemen data, dan pengembangan aplikasi.</p>
+      </div>
+      <div class="card">
+        <h3>Manajemen</h3>
+        <p>Mempersiapkan lulusan dengan pengetahuan bisnis dan strategi organisasi.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="galeri">
+    <h2>Galeri Kampus</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="gambar/LabKomputerUPMI.png" alt="Lab Komputer">
+        <p>Lab komputer modern dengan fasilitas terkini.</p>
+      </div>
+      <div class="card">
+        <img src="gambar/PerpustakaanUPMI.png" alt="Perpustakaan">
+        <p>Perpustakaan digital dan fisik yang lengkap dan nyaman.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="pmb">
+    <h2>Pendaftaran Mahasiswa Baru</h2>
+    <p>Kunjungi laman resmi kami atau hubungi bagian PMB untuk informasi lebih lanjut tentang proses dan jadwal pendaftaran.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Universitas Pembangunan Mandiri Indonesia. All rights reserved.
+  </footer>
+</body>
+</html>
